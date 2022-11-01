@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    .center{
+        position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+    }
+    body{
+        background-image: url('https://t3.ftcdn.net/jpg/03/08/71/84/360_F_308718440_Lsad7H4qi33o1ofctkV5CDNv51hiHbMS.jpg');
+        opacity: 0.8;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    .container-fluid {
+        background-color:rgb(127, 192, 232);
+        align-content: center ;
+        border: 3px  solid  rgb(2, 25, 84) ;
+         border-radius: 20px; 
+         margin: auto auto ; 
+         padding:1%;
+      }
+    </style>
+</head>
+<body>
+    <div class="container-fluid center" >
+    <h1 > Welcome to Registration Page</h1>
+    <form action = "/signupsubmit" method ="GET" class="form-group" >
+        <label> First Name</label><br> <input type ="text" name ="fname"  class="form-control" placeholder="First Name"><br>
+        <label>Last Name </label> <br>  <input type ="text" name ="lname" class="form-control"  placeholder="Last Name"><br>
+        <label>Email </label> <br>     <input type ="text" name ="email" class="form-control" placeholder = "Email"><br>
+        <label> Password</label> <br>   <input type ="password" name ="password" class="form-control" placeholder="Password" > <br>
+        <label> Confirm Password</label><br>  <input type ="password" name ="cpassword" class="form-control"  placeholder="Confirm Password"><br>
+        <input type = "submit"  class="btn btn-default" value ="SUBMIT">
+    </form>
+    </div>
+</body>
+</html>

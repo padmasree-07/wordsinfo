@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .center{
+          position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+      }
+      body{
+        background-image:url('https://static6.depositphotos.com/1055089/664/v/450/depositphotos_6644519-stock-illustration-vector-vintage-background-made-from.jpg');
+        background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .container-fluid {
+        background-color:rgb(243, 249, 215);
+        align-content: center ;
+        
+         border-radius: 20px; 
+         border: 2px solid black; 
+         padding:1%;
+         width: 500px;
+         margin: auto;
+     
+      }
+      </style>
+</head>
+<body>
+  <div class="container-fluid center">
+    <p><b><u></u>Word Info<u></u></b></p>
+    <p>Word             :<%= sample[0] %></p>
+    <p> Phonetics       :<%= sample[1] %></p>
+    <p>Meaning          :<%= sample[2] %></p>
+    <p>Example          :<%= sample[3] %></p>
+    <p>parts of speech  :<%= sample[4] %></p>
+    
+</div>
+</body>
+</html>

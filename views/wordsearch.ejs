@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+       
+      .center{
+          position: fixed;
+  left: 50%;
+
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+      }
+      body{
+        background-image: url('http://wallpaperset.com/w/full/d/8/1/234684.jpg');
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+      }
+      .container-fluid {
+        background-color: grey;
+        align-content: center ;
+        
+         border-radius: 20px; 
+          
+         padding:1%;
+         width: 500px;
+         margin: auto;
+         border: 3px solid #0f0f0e;
+      }
+      
+      h1{
+        align-content: center;
+       
+      }
+      div.container-fluid {
+  
+}
+      </style>
+</head>
+<body>
+    
+       
+        <div class=" container-fluid center" >
+            <div class="container-fluid  center">
+            <h1>SEARCH FOR A WORD </h1>
+            <form action="/wordfound" method="GET" class="form-group">
+                 <input type="text" name="word" placeholder="Search a word " class="form-control" ><br><br>
+                 <button type="submit" class="btn btn-success sub "><span class="glyphicon glyphicon-search"></span>SEARCH</button>
+            </form>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
